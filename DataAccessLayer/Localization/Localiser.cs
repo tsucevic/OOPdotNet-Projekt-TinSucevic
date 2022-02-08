@@ -10,8 +10,12 @@ namespace DataAccessLayer.Localization
 {
     public class Localiser
     {
+        internal static string defaultLocale = "en";
         JObject locales;
         string currentLocale;
+
+        public Localiser() : this(defaultLocale) { }
+       
         public Localiser(string locale)
         {
             var jsonData = File.ReadAllText("strings.json");
