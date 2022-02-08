@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using WindowsFormsApp.Forms.Settings;
 using WindowsFormsApp.Forms.FavouriteRepresentation;
+using WindowsFormsApp.Forms.FavouritePlayers;
 
 namespace WindowsFormsApp
 {
@@ -45,7 +46,7 @@ namespace WindowsFormsApp
                 Application.Run(new FavouritePlayers());
 
                 //For testing only
-                DataHandler.DeleteAllLocalFiles();
+                //DataHandler.DeleteAllLocalFiles();
             }
             catch (Exception ex)
             {

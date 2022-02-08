@@ -59,7 +59,8 @@ namespace WindowsFormsApp.Forms.FavouriteRepresentation
             {
                 List<Team> representations = null;
                 lbStatus.Text = Program.GetLocalizedString("Fetching");
-                string uri = DataHandler.CACHE + (Program.userSettings.SavedLeague == UserSettings.League.Female ? "Female" : "Male") + "@Team" + ".json";
+                string baseUrl = Program.userSettings.SavedLeague == UserSettings.League.Female ? URL.F_BASE_URL : URL.M_BASE_URL;
+                string uri = DataHandler.CACHE + baseUrl.Substring(7).Replace('\\', '-').Replace('/', '-') + "@Team" + ".json";
 
                 if (File.Exists(uri))
                 {

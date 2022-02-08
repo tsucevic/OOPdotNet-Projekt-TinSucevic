@@ -9,7 +9,7 @@ namespace DataAccessLayer
 {
     public class DataHandler
     {
-        internal static string BASE_DIR = Path.Join(Path.GetTempFileName() + "OOPNET");
+        internal static string BASE_DIR = Path.Join(Path.GetTempPath()+ "pravimosedajeovorandomstring" + "OOPNET");
         internal static string USER { get { return BASE_DIR + "\\user.json"; } }
         internal static string REPRESENTATION { get { return BASE_DIR + "\\representation.json"; } }
         public static string FEMALE_TEAMS { get { return BASE_DIR + "\\female\\"; } }
