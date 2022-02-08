@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Localization
 {
-    class Localiser
+    public class Localiser
     {
         JObject locales;
         string currentLocale;

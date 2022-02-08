@@ -1,5 +1,6 @@
 ﻿using DataAccessLayer;
 using DataAccessLayer.Model;
+using DataAccessLayer.Localization;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -19,9 +20,9 @@ namespace WindowsFormsApp
         public static string FEMALE_TEAMS { get { return BASE_DIR + "\\f\\"; } }
         public static string MALE_TEAMS { get { return BASE_DIR + "\\m\\"; } }
         // public static UserSettings userSettings { get; set; }
-        public static Team lastTeam { get; set; }
-        public static Localizer localizer { get; private set; }
-        internal static bool firstOnboarding = true;
+        public static Team LastTeam { get; set; }
+        public static Localiser Localizer { get; private set; }
+        internal static bool firstLaunch = true;
         internal static string defaultLocale = "en";
 
         /// <summary>
