@@ -18,7 +18,7 @@ namespace DataAccessLayer.Localization
        
         public Localiser(string locale)
         {
-            var jsonData = File.ReadAllText("strings.json");
+            var jsonData = File.ReadAllText("Localization\\strings.json");
             locales = JObject.Parse(jsonData);
             currentLocale = locale;
         }

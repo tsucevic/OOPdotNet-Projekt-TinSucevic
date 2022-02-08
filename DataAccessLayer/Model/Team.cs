@@ -55,5 +55,21 @@ namespace DataAccessLayer.Model
 
         [JsonProperty("goal_differential")]
         public long GoalDifferential { get; set; }
+
+        public override bool Equals(object obj)
+        {
+            return obj is Team result &&
+                   FifaCode == result.FifaCode;
+        }
+
+        public override int GetHashCode()
+        {
+            return HashCode.Combine(FifaCode);
+        }
+
+        public override string ToString()
+        {
+            return JsonConvert.SerializeObject(this);
+        }
     }
 }

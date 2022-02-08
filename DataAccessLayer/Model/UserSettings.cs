@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -7,10 +8,15 @@ namespace DataAccessLayer.Model
 {
     public class UserSettings
     {
-        public UserSettings(League savedLeague, Language savedLanguage)
+        public UserSettings(Language savedLanguage, League savedLeague)
         {
             SavedLeague = savedLeague;
             SavedLanguage = savedLanguage;
+        }
+        public UserSettings(int savedLanguage, int savedLeague)
+        {
+            SavedLeague = (League)savedLeague;
+            SavedLanguage = (Language)savedLanguage;
         }
 
         public League SavedLeague { get; set; }
@@ -51,6 +57,10 @@ namespace DataAccessLayer.Model
                 default:
                     throw new Exception("Unsupported league selected");
             }
+        }
+        public override string ToString()
+        {
+            return JsonConvert.SerializeObject(this);
         }
     }
 }

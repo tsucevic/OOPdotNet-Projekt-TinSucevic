@@ -29,32 +29,35 @@ namespace WindowsFormsApp.Forms.Settings
         /// </summary>
         private void InitializeComponent()
         {
-            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tcWizard = new System.Windows.Forms.TabControl();
             this.SuspendLayout();
             // 
-            // tabControl1
+            // tcWizard
             // 
-            this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControl1.Location = new System.Drawing.Point(0, 0);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(304, 171);
-            this.tabControl1.TabIndex = 0;
+            this.tcWizard.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tcWizard.Location = new System.Drawing.Point(0, 0);
+            this.tcWizard.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.tcWizard.Name = "tcWizard";
+            this.tcWizard.SelectedIndex = 0;
+            this.tcWizard.Size = new System.Drawing.Size(355, 197);
+            this.tcWizard.TabIndex = 0;
             // 
             // Settings
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(304, 171);
-            this.Controls.Add(this.tabControl1);
+            this.ClientSize = new System.Drawing.Size(355, 197);
+            this.Controls.Add(this.tcWizard);
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "Settings";
             this.Text = "Settings";
+            this.Load += new System.EventHandler(this.Settings_Load);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabControl tcWizard;
     }
 }

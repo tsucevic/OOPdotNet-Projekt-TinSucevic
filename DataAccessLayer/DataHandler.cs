@@ -59,5 +59,7 @@ namespace DataAccessLayer
             catch { throw; }
         }
         public static void WipeRepresentation() => File.Delete(REPRESENTATION);
+
+        public static void DeleteAllLocalFiles() => Directory.Delete(BASE_DIR, true);
     }
 }

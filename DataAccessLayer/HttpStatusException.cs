@@ -4,7 +4,7 @@ using System.Runtime.Serialization;
 namespace DataAccessLayer
 {
     [Serializable]
-    internal class HttpStatusException : Exception
+    public class HttpStatusException : Exception
     {
         public HttpStatusException()
         {

@@ -1,0 +1,262 @@
+{
+  "Continue": {
+    "hr": "Nastavi",
+    "en": "Continue"
+  },
+  "Finish": {
+    "hr": "Zavrsi",
+    "en": "Finish"
+  },
+  "AwaitFetch": {
+    "hr": "Veza prekinuta...",
+    "en": "Connection interrupted..."
+  },
+  "Fetching": {
+    "hr": "Dobavaljanje podataka...",
+    "en": "Fetching data..."
+  },
+  "Done": {
+    "hr": "Dobavljeno.",
+    "en": "Done."
+  },
+  "Aborting": {
+    "hr": "Prekinuto...",
+    "en": "Aborting...."
+  },
+  "Settings": {
+    "hr": "Postavke",
+    "en": "Settings"
+  },
+  "RankedList": {
+    "hr": "Rang lista",
+    "en": "Ranked list"
+  },
+  "Onboarding": {
+    "hr": "Novi korisnik",
+    "en": "Onboarding"
+  },
+  "Female": {
+    "hr": "Zensko",
+    "en": "Female"
+  },
+  "Male": {
+    "hr": "Musko",
+    "en": "Male"
+  },
+  "Championship": {
+    "hr": "Prvenstvo",
+    "en": "Championship"
+  },
+  "Language": {
+    "hr": "Jezik",
+    "en": "Language"
+  },
+  "errorSaveRepresentation": {
+    "hr": "Nije bilo moguce spremiti trenutnu reprezentaciju",
+    "en": "Could not save current representation"
+  },
+  "errorOnboarding": {
+    "hr": "Greska pri kreiranju novog korisnika",
+    "en": "Error during onboarding."
+  },
+  "errorEndOnboarding": {
+    "hr": "Molimo rucno obrisite user.json",
+    "en": "Please manually delete user.json"
+  },
+  "userSettingsError": {
+    "hr": "Greska u postavkama racuna.",
+    "en": "User settings error."
+  },
+  "Captain": {
+    "hr": "Kapetan",
+    "en": "Captain"
+  },
+  "errorRequest": {
+    "hr": "Greska pri povezivanju",
+    "en": "Request Error"
+  },
+  "errorJson": {
+    "hr": "Greska pri citanju spremljenih postavki",
+    "en": "Error while parsing save data file"
+  },
+  "FavoritePlayers": {
+    "hr": "Omiljeni igraci",
+    "en": "Favorite players"
+  },
+  "FavoriteRepresentation": {
+    "hr": "Omiljena reprezentacija",
+    "en": "Favorite representation"
+  },
+  "playerPortrait": {
+    "hr": "Slika Igraca",
+    "en": "Player Portrait"
+  },
+  "playerName": {
+    "hr": "Ime Igraca",
+    "en": "Player Name"
+  },
+  "yellowCards": {
+    "hr": "Zuti Kartoni",
+    "en": "Yellow Cards"
+  },
+  "goals": {
+    "hr": "Golovi",
+    "en": "Goals"
+  },
+  "Venue": {
+    "hr": "Mjesto",
+    "en": "Venue"
+  },
+  "Spectators": {
+    "hr": "Gledatelj",
+    "en": "Spectators"
+  },
+  "HomeTeam": {
+    "hr": "Domaci tim",
+    "en": "Home Team"
+  },
+  "GuestTeam": {
+    "hr": "Gostinski tim",
+    "en": "Guest Team"
+  },
+  "SpectatorList": {
+    "hr": "Rang Gledatelja",
+    "en": "Ranked Spectators"
+  },
+  "PositionSaveError": {
+    "hr": "Nije bilo moguce spremiti pozicije igraca...",
+    "en": "Could not save player positions..."
+  },
+  "IconSetError": {
+    "hr": "Nije bilo moguce postaviti ikonu igracu.",
+    "en": "Unable to set player icon."
+  },
+  "ImageFiles": {
+    "hr": "Slikovne Datoteke",
+    "en": "Image Files"
+  },
+  "Allfiles": {
+    "hr": "Sve Datoteke",
+    "en": "All Files"
+  },
+  "Move": {
+    "hr": "Pomakni",
+    "en": "Move"
+  },
+  "toFavorites": {
+    "hr": "u Favorite",
+    "en": "to Favorites"
+  },
+  "toOthers": {
+    "hr": "u Ostale",
+    "en": "to Others"
+  },
+  "AddPicture": {
+    "hr": "Dodaj sliku",
+    "en": "Add Picture"
+  },
+  "NoMatchFound": {
+    "hr": "Nije pronadjena utakmica izmedju ova 2 tima.",
+    "en": "No game found with these two teams."
+  },
+  "tsMenuPrint": {
+    "hr": "Printaj",
+    "en": "Print"
+  },
+  "tsMenuPageSetup": {
+    "hr": "Postavke stranice",
+    "en": "Page setup"
+  },
+  "tsMenuPreview": {
+    "hr": "Pregled ispisa",
+    "en": "Print Preview"
+  },
+  "tooManyRequests": {
+    "hr": "Molimo pricekajte prije ponovnog pokusaja.",
+    "en": "Please wait before trying again."
+  },
+  "tooManyRequestsMessage": {
+    "hr": "Greska, previse upita",
+    "en": "Error, too many requests"
+  },
+  "errorExit": {
+    "hr": "Doslo je do neoporavljive greske",
+    "en": "An unrecoverable error has been encountered"
+  },
+  "error": {
+    "hr": "Greska",
+    "en": "Error"
+  },
+  "Fullscreen": {
+    "hr": "Puni ekran",
+    "en": "Fullscreen"
+  },
+  "screensize": {
+    "hr": "Velicina ekrana",
+    "en": "Screen size"
+  },
+  "Representation": {
+    "hr": "Reprezentacija",
+    "en": "Representation"
+  },
+  "GuestRepresentation": {
+    "hr": "Gostinska Reprezentacija",
+    "en": "Guest Representation"
+  },
+  "Naziv": {
+    "hr": "Naziv",
+    "en": "Name"
+  },
+  "Fifakod": {
+    "hr": "Fifa kod",
+    "en": "Fifa code"
+  },
+  "GamesPlayed": {
+    "hr": "Odigrano",
+    "en": "Games played"
+  },
+  "GamesWon": {
+    "hr": "Pobijedjeno",
+    "en": "Games won"
+  },
+  "GamesLost": {
+    "hr": "Izgubljeno",
+    "en": "Games lost"
+  },
+  "GamedTied": {
+    "hr": "Izjednaceno",
+    "en": "Games tied"
+  },
+  "GoalsScored": {
+    "hr": "Golova zabijeno",
+    "en": "Goals scored"
+  },
+  "GoalsTaken": {
+    "hr": "Golova primljeno",
+    "en": "Goals taken"
+  },
+  "GoalsDiff": {
+    "hr": "Razlika",
+    "en": "Differential"
+  },
+  "Confirm": {
+    "hr": "Jeste li sigurni?",
+    "en": "Are you sure?"
+  },
+  "ConfirmTitle": {
+    "hr": "Potvrda unosa",
+    "en": "Confirmation"
+  },
+  "okButton": {
+    "hr": "Da",
+    "en": "Yes"
+  },
+  "CancelButton": {
+    "hr": "Ne",
+    "en": "No"
+  },
+  "RepOverview": {
+    "hr": "Pregled reprezetacije",
+    "en": "Representation overview"
+  }
+}
